@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Despicable Me</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="character">
+      <h1>What did the protagonist use to shrink the moon down by size?</h1>
+      <select class="form-control" id="weapon">
+        <option>freeze ray</option>
+        <option>shrink ray</option>
+        <option>none of these</option>
+      </select>
+      <h1>How many minions does the protagonist have?</h1>
+      <select class="form-control" id="minion">
+        <option>0</option>
+        <option>50</option>
+        <option>75</option>
+        <option>100</option>
+      </select>
+      <h1>What is your favorite character?</h1>
+        <div class="radio">
+          <label>
+            <input type="radio" name="favorite" value="gru" checked>
+            Gru
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="favorite" value="vector">
+            Vector
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="favorite" value="margo">
+            Margo
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="favorite" value="edith">
+            Edith
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="favorite" value="agnus">
+            Agnus
+          </label>
+        </div>
+        <button type="submit" class="btn">Go!</button>
+      </form>
+      <div class="answer">
+        <p>Ok, you are this character <span class="character"></span></p>
+      </div>
+      <div class="no-answer">
+        <p>You haven't watched this movie</p>
+      </div>
+    </div>
+  </body>
+</html>
